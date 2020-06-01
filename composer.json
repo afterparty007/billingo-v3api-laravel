@@ -32,5 +32,15 @@
     },
     "autoload-dev": {
         "psr-4": { "Swagger\\Client\\" : "test/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.2-dev"
+        },
+        "laravel": {
+            "providers": [
+                 "Swagger\\Client\\ServiceProvider"
+            ]
+        }
     }
 }
