@@ -1,6 +1,6 @@
 {
-    "name": "GIT_USER_ID/GIT_REPO_ID",
-    "description": "",
+    "name": "afterparty007/billingo",
+    "description": "Billingo v3 api",
     "keywords": [
         "swagger",
         "php",
