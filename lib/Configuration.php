@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Configuration
  * PHP version 5
@@ -116,7 +117,9 @@ class Configuration
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
-        $this->setApiKey('X-API-KEY', env('BILLINGO_API3_KEY'));
+        if (env('BILLINGO_API3_KEY')) {
+            $this->setApiKey('X-API-KEY', env('BILLINGO_v3_API_KEY'));
+        }
     }
 
     /**
