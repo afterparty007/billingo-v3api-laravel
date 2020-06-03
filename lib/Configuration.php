@@ -117,8 +117,8 @@ class Configuration
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
-        if (env('BILLINGO_API3_KEY')) {
-            $this->setApiKey('X-API-KEY', env('BILLINGO_v3_API_KEY'));
+        if (env('BILLINGO_V3_API_KEY')) {
+            $this->setApiKey('X-API-KEY', env('BILLINGO_V3_API_KEY'));
         }
     }
 
