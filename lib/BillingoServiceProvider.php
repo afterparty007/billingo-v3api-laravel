@@ -2,7 +2,7 @@
 
 namespace Swagger\Client;
 
-class ServiceProvider extends \Illuminate\Support\ServiceProvider
+class BillingoServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     
     /**
