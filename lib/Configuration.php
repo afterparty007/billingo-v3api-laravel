@@ -116,6 +116,7 @@ class Configuration
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
+        $this->setApiKey('X-API-KEY', env('BILLINGO_API3_KEY'));
     }
 
     /**
